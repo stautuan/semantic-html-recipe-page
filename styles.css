@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e6d8;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  color: #5f574e;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recipe-container {
+  background-color: #fff;
+  width: 736px;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+img {
+  width: 656px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #302d2c;
+  line-height: 1.28;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.46;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.preparation-time {
+  background-color: #fff5fa;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #854632;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #7b284f;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul,
+ol {
+  margin-top: 10px;
+}
+
+li {
+  line-height: 1.5;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+
+ul li::marker {
+  font-size: 12px;
+}
+
+ol li::marker {
+  font-weight: 600;
+  color: #854632;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+tr {
+  margin-left: 30px;
+}
+
+td {
+  border-bottom: 1.5px solid #ccc;
+  padding: 14px 30px;
+}
+
+.nutritional-values {
+  color: #854632;
+  font-weight: bold;
+}
+
+tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 740px) {
+  .recipe-container {
+    background-color: #fff;
+    width: 375px;
+    border-radius: 0;
+    margin-top: 0;
+    padding: 0;
+    gap: 5px;
+  }
+
+  img {
+    width: 375px;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .title-description {
+    margin: 30px;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 22px;
+  }
+
+  main {
+    margin: 30px 30px;
+  }
+
+  h2 {
+    letter-spacing: 0.2px;
+  }
+
+  /* .attribution {
+    display: none;
+  } */
+}
